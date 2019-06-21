@@ -1,0 +1,22 @@
+.RepositoryItem {
+  border-bottom: 1px solid #ccc;
+}
+
+.Link:link,
+.Link:visited {
+  color: #2980b9;
+}
+
+.Link:hover,
+.Link:active {
+  text-decoration: underline;
+  color: #3498db
+}
+
+.Small {
+  font-size: 70%
+}
+
+.XSmall {
+  font-size: 60%;
+}

@@ -1,0 +1,39 @@
+.active {
+  font-size: 200%;
+}
+
+.Container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Small {
+  font-size: 70%
+}
+
+.Nav {
+  text-align: center;
+}
+
+.Nav::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+.Nav li {
+  display: inline-block;
+  margin-right: 16px;
+}
+
+.Nav li a:link,
+.Nav li a:visited {
+  color: #2980b9;
+}
+
+.Nav li a:hover,
+.Nav li a:active,
+a.active {
+  text-decoration: underline;
+  color: #3498db
+}
